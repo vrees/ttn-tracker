@@ -11,7 +11,7 @@ start_lon = 7.8968636
 
 # TTN Application
 application = "buehl-ttgo-ttn-mapper"
-app_key = "ttn-account-v2.t1A5JKlhe47sPKS596YtrvEzJ3UMwFtgoboTwaIqEYw"
+app_key = "key ttn-account-v2.F6aGOhGF8NDqcFlnMO_Up7iJ-gLWD8i546PFkyP8eXs"
 
 # Application devices
 devices = [
