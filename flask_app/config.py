@@ -11,7 +11,7 @@ start_lon = 7.8968636
 
 # TTN Application
 application = "buehl-ttgo-ttn-mapper"
-app_key = "70B3D57ED00203F6"
+app_key = "view-location-in-ttn-tracker"
 
 # Application devices
 devices = [
@@ -21,8 +21,8 @@ devices = [
 
 # Where to place gateway markers
 gateway_locations = [
-    ('Viktors Gateway 01', 47.89693136, 7.89731799),
-    ('Gateway 02', 47.8972000, 7.89600)
+    ('Buehl/Hofsgrund 01', 47.89693136, 7.89731799),
+    ('bn_Schauinsland 02', 47.9098484, 7.8913307)
 ]
 
 bing_api_key = ''
