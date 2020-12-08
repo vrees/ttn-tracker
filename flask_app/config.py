@@ -21,7 +21,7 @@ devices = [
 
 # Where to place gateway markers
 gateway_locations = [
-    ('Viktor's Gateway 01', 47.89693136, 7.89731799),
+    ('Viktors Gateway 01', 47.89693136, 7.89731799),
     ('Gateway 02', 47.8972000, 7.89600)
 ]
 
