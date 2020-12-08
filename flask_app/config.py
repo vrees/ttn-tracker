@@ -6,23 +6,23 @@ path_db = '/var/ttn_tracker/ttn_tracker_database.db'
 refresh_period_seconds = 15
 
 # Where the map initially loads
-start_lat = 35.978781
-start_lon = -77.855346
+start_lat = 47.896998
+start_lon = 7.8968636
 
 # TTN Application
-application = "ttn_application"
-app_key = "key ttn-account-TTN_APP_KEY"
+application = "buehl-ttgo-ttn-mapper"
+app_key = "70B3D57ED00203F6"
 
 # Application devices
 devices = [
-    "device_01",
-    "device_02"
+    "ttgo-t-beam-esp32-ttnmapper",
+    "ttgo-t-beam-esp32-ttnmapper-2"
 ]
 
 # Where to place gateway markers
 gateway_locations = [
-    ('Gateway 01', 35.978781, -77.855346),
-    ('Gateway 02', 35.978781, -77.655346)
+    ('Viktor's Gateway 01', 47.89693136, 7.89731799),
+    ('Gateway 02', 47.8972000, 7.89600)
 ]
 
 bing_api_key = ''
