@@ -118,16 +118,15 @@ def get_new_data():
         past_seconds = 604800  # 7 days, max The Things Network storage allows
 
     for each_device in devices:
-                # endpoint = "https://{app}.data.thethingsnetwork.org/api/v2/query/{dev}?last={time}".format(
-        endpoint = "https://{app}.data.thethingsnetwork.org/api/v2/query/{dev}?last=8000s".format(
+        endpoint = "https://{app}.data.thethingsnetwork.org/api/v2/query/{dev}?last={time}".format(
             app=application, dev=each_device, time="{}s".format(past_seconds))
         logger.info(endpoint)
         headers = {"Authorization": app_key}
         response = requests.get(endpoint, headers=headers)
         try:
             for each_resp in response.json():
-            #  if (not Location.query.filter(Location.datetime == each_resp['time']).first() and
-                        # -90 < float(each_resp['latitude']) <= 90 and -120 <= float(each_resp['longitude']) <= 80): 
+             if (not Location.query.filter(Location.datetime == each_resp['time']).first() and
+                        -90 < float(each_resp['latitude']) <= 90 and -120 <= float(each_resp['longitude']) <= 80): 
                     logger.info("{}, {}".format(each_resp['latitude'], each_resp['longitude']))
                     new_location = Location(
                         device_id=each_resp['device_id'],
