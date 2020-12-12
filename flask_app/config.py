@@ -18,7 +18,7 @@ devices = [
     "ttgo-t-beam-esp32-ttnmapper",      // green housing
     "ttgo-t-beam-esp32-ttnmapper-2",    // blue housing
     "ttgo-t-beam-esp32-ttnmapper-3",
-    "ttgo-t-beam-esp32-ttnmapper-4",
+    "ttgo-t-beam-esp32-ttnmapper-4"
 ]
 
 # Where to place gateway markers
