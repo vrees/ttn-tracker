@@ -15,6 +15,9 @@ app_key = "key ttn-account-v2.t1A5JKlhe47sPKS596YtrvEzJ3UMwFtgoboTwaIqEYw"
 
 # Application devices
 devices = [
+    "ttgo-t-beam-esp32-ttnmapper",
+    "ttgo-t-beam-esp32-ttnmapper-2",
+    "ttgo-t-beam-esp32-ttnmapper-3",   
     "ttgo-t-beam-esp32-ttnmapper-4"
 ]
 
